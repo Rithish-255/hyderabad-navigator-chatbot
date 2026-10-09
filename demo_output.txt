@@ -1,0 +1,40 @@
+Hyderabad Navigator Chatbot
+=========================
+
+Sample execution result
+
+User: I want a 2-day heritage and food trip in Hyderabad with family
+
+Bot:
+Hyderabad Navigator Bot
+Recommended trip style: Heritage | Duration: 2 day(s) | Budget: Moderate
+
+Top suggestions:
+- Charminar (Old City) - Historic monument and bustling bazaar
+- Golconda Fort (Golconda) - Fort architecture and sunset views
+- Chowmahalla Palace (Khilwat) - Royal Nizami architecture
+- Paradise Biryani (Secunderabad) - Famous biryani and Hyderabadi cuisine
+
+Itinerary:
+1. Day 1: Start with Charminar (Morning), continue to Golconda Fort, and finish with Chowmahalla Palace in the evening.
+2. Day 2: Begin with Paradise Biryani, then explore a food or shopping stop based on your interest and complete the trip with a relaxed evening route.
+
+------------------------------------------------------------
+
+User: Suggest a family trip with kids and nature spots
+
+Bot:
+Hyderabad Navigator Bot
+Recommended trip style: Family | Duration: 2 day(s) | Budget: Moderate
+
+Top suggestions:
+- Ramoji Film City (Anajpur) - Theme park, film sets, and family fun
+- Nehru Zoological Park (Bahadurpura) - Kids and family-friendly outing
+- Hussain Sagar Lake (Tank Bund) - Boating and relaxed family time
+- Snow World (Madhapur) - Fun indoor activity
+
+Itinerary:
+1. Day 1: Start with Ramoji Film City (Full Day), continue to Nehru Zoological Park, and finish with Hussain Sagar Lake in the evening.
+2. Day 2: Begin with Snow World, then explore a food or shopping stop based on your interest and complete the trip with a relaxed evening route.
+
+------------------------------------------------------------
