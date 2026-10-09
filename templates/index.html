@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyderabad Navigator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <h1>Hyderabad Navigator Chatbot</h1>
+            <p>Intelligent Trip Planning Using NLP and Random Forest</p>
+        </header>
+
+        <form method="POST" class="chat-form">
+            <label for="query">Ask for your Hyderabad trip plan</label>
+            <textarea id="query" name="query" rows="4" placeholder="Example: I want a 2-day heritage and food trip in Hyderabad with family"></textarea>
+            <button type="submit">Plan My Trip</button>
+        </form>
+
+        {% if response %}
+        <section class="result-box">
+            <h2>Trip Suggestions</h2>
+            <pre>{{ response }}</pre>
+        </section>
+        {% endif %}
+    </div>
+</body>
+</html>
